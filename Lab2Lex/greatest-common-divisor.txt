@@ -1,0 +1,12 @@
+INT a
+INT b
+{
+        READ a
+        READ b
+        WHILE a != b
+                IF a >= b
+                        a = a - b
+                ELSE a <= b
+                        b = b - a
+        WRITE a
+}
